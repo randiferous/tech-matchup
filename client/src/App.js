@@ -7,7 +7,7 @@ import Vote from './pages/Vote';
 import NotFound from './pages/NotFound';
 
 const client = new ApolloClient({
-  uri: 'graphql',
+  uri: '/graphql',
   cache: new InMemoryCache(),
 });
 
@@ -29,7 +29,7 @@ function App() {
               path="/matchup/:id"
               element={<Vote />}
             />
-             <Route
+            <Route
               path="*"
               element={<NotFound />}
             />
