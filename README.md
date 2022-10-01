@@ -2,6 +2,14 @@
 
 This is a MERN-stack application that allows users to create a matchup between two technologies and vote on their favorite technology.
 
+## Deployed Link
+
+https://infinite-caverns-98317.herokuapp.com/
+
+## Screenshot of Application
+
+![alt text](./tech-matchup-screenshot.PNG)
+
 ## Technologies Used
 
 * React
